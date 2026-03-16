@@ -1,0 +1,48 @@
+# Rules Template
+
+gamet-init generates these based on tech stack detection:
+
+## For Next.js / React projects:
+```yaml
+---
+paths:
+  - "app/**"
+  - "components/**"
+---
+# Framework Conventions
+- [Generated from tech-advisor scan or Q7 answers]
+```
+
+## For database-heavy projects:
+```yaml
+---
+paths:
+  - "prisma/**"
+  - "lib/services/**"
+  - "app/api/**"
+---
+# Database Conventions
+- [Generated from tech-advisor scan or Q7 answers]
+```
+
+## For Python projects:
+```yaml
+---
+paths:
+  - "**/*.py"
+---
+# Python Conventions
+- [Generated from tech-advisor scan]
+```
+
+## Universal rules (always generated):
+```yaml
+---
+# No paths — loads always
+---
+# GAMET Development Rules
+- Every new feature should start with impact analysis (gamet-impact)
+- Use GAMET panel for review before shipping
+- Update learning log after each review
+- Epistemic discipline: VERIFIED vs ASSUMED vs UNCERTAIN
+```

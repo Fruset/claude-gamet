@@ -8,6 +8,7 @@ description: "Proactively identifies what to build next — analyzes persona fru
 Analyze all available knowledge to surface what SHOULD be built, ranked by adoption impact.
 
 ## Sources to Analyze
+
 1. **Persona frustrations** → feature gaps
 2. **Learning log patterns** → systemic issues
 3. **Regulatory requirements** → mandatory features
@@ -16,6 +17,7 @@ Analyze all available knowledge to surface what SHOULD be built, ranked by adopt
 6. **Session retrospective** → process improvements
 
 ## Output
+
 Feature Opportunity Report saved to `docs/features/discovery/[date]-report.md`
 
 For top-ranked opportunity: "To proceed, run `/gamet-impact '[description]'`"

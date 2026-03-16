@@ -1,0 +1,17 @@
+# Industry Knowledge Base — Index
+
+This knowledge base grows over time as research is conducted and verified.
+Each file has verification status per section. Always check `Last verified` dates.
+
+## Files
+
+| File | Topic | Status | Last Verified |
+|------|-------|--------|---------------|
+| (populated as research is conducted) | | | |
+
+## Verification Rules
+
+- **VERIFIED**: Has a source URL or document reference. Empirical fact.
+- **ASSUMED**: Reasonable belief based on experience. MUST be flagged.
+- **UNCERTAIN**: Conflicting information found. Needs expert input.
+- **OUTDATED**: Was verified but source is older than 12 months. Re-verify.

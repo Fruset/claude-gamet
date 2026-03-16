@@ -26,15 +26,15 @@ Step 8: Ship       → commit, push, learn    (update learning log + progress)
 
 ## Specialist Dispatch (Step 7.5)
 
-| Issue Type | Agent | Skills |
-|---|---|---|
-| Mobile UX | frontend-architect | UI/UX skill |
-| Data scoping | backend-architect + security-reviewer | Security + database skills |
-| Language | ux-writer | i18n skill |
-| Domain logic | product-analyst + industry-researcher | Domain + research skills |
-| Performance | backend-architect | Framework skill |
-| Accessibility | frontend-architect | UI/UX skill |
-| Component design | frontend-architect | UI/UX skill |
+| Issue Type       | Agent                                 | Skills                     |
+| ---------------- | ------------------------------------- | -------------------------- |
+| Mobile UX        | frontend-architect                    | UI/UX skill                |
+| Data scoping     | backend-architect + security-reviewer | Security + database skills |
+| Language         | ux-writer                             | i18n skill                 |
+| Domain logic     | product-analyst + industry-researcher | Domain + research skills   |
+| Performance      | backend-architect                     | Framework skill            |
+| Accessibility    | frontend-architect                    | UI/UX skill                |
+| Component design | frontend-architect                    | UI/UX skill                |
 
 ## Safety Protocols (Step 7.6)
 

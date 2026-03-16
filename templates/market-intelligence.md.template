@@ -1,0 +1,21 @@
+---
+name: project_market_intelligence
+description: "Growing knowledge about {{PROJECT_NAME}}'s market — customers, competitors, industry trends"
+type: project
+---
+
+## Competitors
+
+{{COMPETITORS}}
+
+## Market Segments
+
+{{SEGMENTS}}
+
+## Customer Feedback Patterns
+
+(Added after customer interactions)
+
+## Industry Trends
+
+(Added via gamet-research with sources)

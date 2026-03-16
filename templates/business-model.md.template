@@ -1,0 +1,21 @@
+---
+name: project_business_model
+description: "{{PROJECT_NAME}} business model — parties, value chain, adoption requirements"
+type: project
+---
+
+## Business Model
+
+{{PROJECT_DESCRIPTION}}
+
+### Value Chain
+
+{{VALUE_CHAIN}}
+
+### Adoption Chain (priority order — hardest to adopt first)
+
+{{ADOPTION_CHAIN}}
+
+### Regulatory Context
+
+{{REGULATIONS}}

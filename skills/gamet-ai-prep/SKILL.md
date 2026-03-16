@@ -8,6 +8,7 @@ description: "Evaluate AI/ML readiness of data structures — auto-categorizatio
 Structure data NOW for AI LATER.
 
 ## Dimensions
+
 1. **Auto-categorization** — can the system predict categories from patterns?
 2. **Predictive alerts** — can it warn before problems happen?
 3. **Smart suggestions** — can it learn from user behavior?
@@ -15,10 +16,13 @@ Structure data NOW for AI LATER.
 5. **Compliance automation** — can it auto-generate required reports?
 
 ## Output
+
 Save to `docs/features/[name]/04-ai-readiness.md` with:
+
 - Opportunities (feasibility + data readiness + action needed)
 - Data structure recommendations
 - What NOT to do yet (premature optimization)
 
 ## Key Principle
+
 Adding a field or index is cheap. Restructuring 100k rows is expensive.

@@ -1,0 +1,24 @@
+---
+name: feedback_epistemic_discipline
+description: Always distinguish between verified facts and assumptions. Never present beliefs as knowledge.
+type: feedback
+---
+
+## The Rule
+
+Never present assumptions as facts. Always distinguish:
+- **VERIFIED** = empirical fact with source
+- **ASSUMED** = reasonable belief, flagged as such
+- **UNCERTAIN** = needs expert verification
+
+## Why
+
+The system may handle regulatory compliance, financial data, or safety-critical decisions. Wrong assumptions can have legal consequences for users.
+
+## How to Apply
+
+- When discussing regulations, standards, or industry practices: ALWAYS search for current info first
+- When building features with domain logic: load knowledge base
+- When knowledge base is empty or outdated: research before assuming
+- When you can't verify: say "I don't know" and suggest who to ask
+- When the user tells you something: save it as VERIFIED (user as source)

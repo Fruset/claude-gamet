@@ -6,42 +6,61 @@ Each agent has a specific role, preferred model, and knows its domain.
 ## The Team
 
 ### Product & Strategy
-| Agent | Role | Model | When Used |
-|-------|------|-------|-----------|
-| `product-analyst` | Analyzes market, personas, adoption risk | opus | Impact analysis, discovery |
-| `business-intelligence` | KPI design, data modeling, reporting | sonnet | Architecture, analytics features |
+
+| Agent                   | Role                                     | Model  | When Used                        |
+| ----------------------- | ---------------------------------------- | ------ | -------------------------------- |
+| `product-analyst`       | Analyzes market, personas, adoption risk | opus   | Impact analysis, discovery       |
+| `business-intelligence` | KPI design, data modeling, reporting     | sonnet | Architecture, analytics features |
 
 ### Design & UX
-| Agent | Role | Model | When Used |
-|-------|------|-------|-----------|
-| `gamet-review-panel` | Orchestrates 3-dimension GAMET review | opus | After build, improvement loop |
-| `ux-researcher` | Persona workflows, journey mapping, usability | sonnet | Impact analysis, design phase |
-| `frontend-architect` | Component design, responsive, accessibility | sonnet | Architecture, build |
+
+| Agent                | Role                                          | Model  | When Used                     |
+| -------------------- | --------------------------------------------- | ------ | ----------------------------- |
+| `gamet-review-panel` | Orchestrates 3-dimension GAMET review         | opus   | After build, improvement loop |
+| `ux-researcher`      | Persona workflows, journey mapping, usability | sonnet | Impact analysis, design phase |
+| `frontend-architect` | Component design, responsive, accessibility   | sonnet | Architecture, build           |
 
 ### Engineering
-| Agent | Role | Model | When Used |
-|-------|------|-------|-----------|
-| `backend-architect` | Data model, API design, service layer, security | sonnet | Architecture phase |
-| `code-implementer` | Writes code following plans, TDD | sonnet/haiku | Build phase |
-| `code-reviewer` | Reviews code against spec + persona context | sonnet | After build |
-| `security-reviewer` | RBAC, data scoping, OWASP, pen testing | sonnet | Architecture + review |
+
+| Agent               | Role                                            | Model        | When Used             |
+| ------------------- | ----------------------------------------------- | ------------ | --------------------- |
+| `backend-architect` | Data model, API design, service layer, security | sonnet       | Architecture phase    |
+| `code-implementer`  | Writes code following plans, TDD                | sonnet/haiku | Build phase           |
+| `code-reviewer`     | Reviews code against spec + persona context     | sonnet       | After build           |
+| `security-reviewer` | RBAC, data scoping, OWASP, pen testing          | sonnet       | Architecture + review |
 
 ### Research & Knowledge
-| Agent | Role | Model | When Used |
-|-------|------|-------|-----------|
+
+| Agent                 | Role                                      | Model  | When Used                    |
+| --------------------- | ----------------------------------------- | ------ | ---------------------------- |
 | `industry-researcher` | Domain research with epistemic discipline | sonnet | When domain knowledge needed |
-| `competitive-analyst` | Competitor comparison, market positioning | sonnet | Discovery, impact analysis |
+| `competitive-analyst` | Competitor comparison, market positioning | sonnet | Discovery, impact analysis   |
 
 ### Quality & Testing
-| Agent | Role | Model | When Used |
-|-------|------|-------|-----------|
-| `test-architect` | Test strategy, coverage, regression planning | sonnet | Plan + build phase |
-| `edge-case-tester` | Error states, overflow, concurrent edits, scale | sonnet | Review phase |
+
+| Agent              | Role                                            | Model  | When Used          |
+| ------------------ | ----------------------------------------------- | ------ | ------------------ |
+| `test-architect`   | Test strategy, coverage, regression planning    | sonnet | Plan + build phase |
+| `edge-case-tester` | Error states, overflow, concurrent edits, scale | sonnet | Review phase       |
 
 ### Language & Localization
-| Agent | Role | Model | When Used |
-|-------|------|-------|-----------|
+
+| Agent       | Role                                          | Model  | When Used      |
+| ----------- | --------------------------------------------- | ------ | -------------- |
 | `ux-writer` | UI text, error messages, per-persona language | sonnet | Build + review |
+
+### Privacy & Ethics
+
+| Agent              | Role                                                 | Model  | When Used                     |
+| ------------------ | ---------------------------------------------------- | ------ | ----------------------------- |
+| `privacy-guardian` | GDPR, data classification, consent, right to erasure | sonnet | Architecture + review         |
+| `philosophy-mind`  | Ethics, bias, power dynamics, broader implications   | opus   | Impact, discovery, when asked |
+
+### Infrastructure
+
+| Agent          | Role                                                           | Model  | When Used                    |
+| -------------- | -------------------------------------------------------------- | ------ | ---------------------------- |
+| `tech-advisor` | Tech stack evaluation, optimization, scanning, recommendations | sonnet | Init (Phase 0), architecture |
 
 ## How Agents Are Used
 

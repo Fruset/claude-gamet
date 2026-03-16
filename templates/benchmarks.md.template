@@ -1,0 +1,23 @@
+# Industry Benchmarks
+
+The panel compares against domain-specific systems — NOT generic project tools.
+
+## Your Industry Competitors
+
+{{GENERATED_BENCHMARKS}}
+
+<!-- Generated from init Q5. Example format:
+### CompetitorName
+- Strengths: what they do well
+- Weaknesses: where they fall short
+- What we can learn: specific UX/feature patterns to adopt
+-->
+
+## NOT Appropriate Benchmarks
+
+{{NOT_BENCHMARKS}}
+
+<!-- Generic tools that lack domain logic:
+- Trello, Linear, Asana — no domain-specific workflows
+- Jira — issue tracking, not [your domain]
+-->

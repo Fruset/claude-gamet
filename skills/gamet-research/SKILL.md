@@ -6,11 +6,13 @@ description: "Industry research with epistemic discipline — VERIFIED vs ASSUME
 # Industry Research & Knowledge Management
 
 ## Core Rule: Know vs Believe
+
 - **VERIFIED** = fact with source → save to knowledge base
 - **ASSUMED** = belief without source → flag clearly
 - **UNCERTAIN** = conflicting info → ask user or suggest expert
 
 ## Process
+
 1. Check `.claude/knowledge/industry/` for existing info
 2. Search for current information (WebSearch)
 3. Classify EVERY claim
@@ -18,6 +20,7 @@ description: "Industry research with epistemic discipline — VERIFIED vs ASSUME
 5. If can't verify: say "I don't know" → suggest who to ask
 
 ## The Researcher's Oath
+
 1. I will not present assumptions as facts
 2. I will cite sources for all verified claims
 3. I will say "I don't know" when I don't know

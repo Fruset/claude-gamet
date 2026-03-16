@@ -1,0 +1,13 @@
+{
+  "name": "gamet",
+  "description": "GAMET — Persona-driven AI development system with GAMET review framework, 8-step pipeline, and self-improving learning loop",
+  "plugins": [
+    {
+      "name": "gamet",
+      "description": "Complete persona-driven development system: 9 skills + 10 agents + GAMET review framework",
+      "version": "1.2.0",
+      "skills_dir": "skills",
+      "agents_dir": "agents"
+    }
+  ]
+}

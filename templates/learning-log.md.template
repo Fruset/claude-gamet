@@ -1,0 +1,32 @@
+---
+name: project_learning_log
+description: Accumulated learnings from GAMET reviews — what works, recurring issues, patterns. Auto-updated after each review.
+type: project
+---
+
+## How This Works
+
+After each GAMET review, update this log:
+1. What scored well (A) → add to "What Works"
+2. What scored poorly (C or below) → add to "Recurring Issues"
+3. New patterns discovered → add to "Patterns"
+
+This log is read by Impact Analysis, so learnings from past work inform future work.
+
+## What Works (features/patterns that consistently score A)
+
+(Empty — populated after first GAMET review)
+
+## Recurring Issues (consistently score B- or below)
+
+(Empty — populated after first GAMET review)
+
+## Patterns (design decisions to apply to ALL new features)
+
+(Empty — populated as patterns emerge)
+
+## Session Log
+
+| Date | Feature | GAMET Score | Key Learning |
+|------|---------|-------------|-------------|
+| | | | |

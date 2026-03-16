@@ -1,0 +1,41 @@
+# {{PROJECT_NAME}}
+
+{{PROJECT_DESCRIPTION}}
+
+## Tech Stack
+
+{{TECH_STACK}}
+
+## Critical Conventions
+
+{{CONVENTIONS}}
+
+## Quick Commands
+
+```bash
+{{COMMANDS}}
+```
+
+## Git Workflow
+
+- Always branch from `main`
+- Feature branches: `feature/<name>`
+- Bug fix branches: `fix/<name>`
+- Never commit directly to `main`
+
+## Session Workflow
+
+- Start: `/gamet-checkpoint` or just describe what you want to build
+- Build: `/gamet-orchestrator "feature description"` for full pipeline
+- Discover: `/gamet-discovery` for what to build next
+- Review: `/gamet-panel` for GAMET review
+- End: `/gamet-checkpoint` to save state
+
+## Skills
+
+Skills load automatically when relevant. Key skills:
+{{SKILL_LIST}}
+
+## Key Files
+
+{{KEY_FILES}}

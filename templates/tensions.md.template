@@ -1,0 +1,35 @@
+# Persona Tensions & Resolution
+
+## Tensions
+
+{{GENERATED_TENSIONS}}
+
+<!-- Generated from persona analysis. Example format:
+- **PowerUser vs Beginner:** Power user wants compact density, beginner needs large buttons
+  → Resolution: role-based density defaults
+-->
+
+## Resolution Principle: Role-Based Adaptation
+
+When personas conflict, the system adapts per role — not a forced compromise:
+- Different default views per role
+- Different density settings
+- Different notification levels
+- Different language levels
+- Same system, different experience
+
+## Adoption Priority
+
+When in doubt, prioritize the role HARDEST to get to adopt:
+{{ADOPTION_CHAIN}}
+
+## Unresolvable Tensions
+
+Some conflicts are PRODUCT DECISIONS, not UI decisions:
+1. Label as "PRODUCT DECISION REQUIRED"
+2. State the trade-off with business impact
+3. Do NOT recommend — escalate to product owner
+
+## Emotional States
+
+{{EMOTIONAL_STATES_TABLE}}
