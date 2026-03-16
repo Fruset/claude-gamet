@@ -80,7 +80,7 @@ To update later when new versions are released:
 /plugin install gamet@claude-gamet
 ```
 
-### Option 2: Copy into your project (works everywhere including Cowork)
+### Option 2: Copy into your project
 
 ```bash
 git clone https://github.com/Fruset/claude-gamet.git
@@ -88,12 +88,34 @@ cp -r claude-gamet/skills/* your-project/.claude/skills/
 cp -r claude-gamet/agents/* your-project/.claude/agents/
 ```
 
-### Option 3: Personal skills (available in all your projects)
+### Option 3: Personal skills (available in all your Claude Code projects)
 
 ```bash
 git clone https://github.com/Fruset/claude-gamet.git
 cp -r claude-gamet/skills/* ~/.claude/skills/
 ```
+
+### Option 4: Claude Cowork / Claude.ai
+
+Cowork doesn't auto-discover `.claude/skills/`. Instead:
+
+1. **Via plugin marketplace** — if your organization has a private marketplace, add GAMET there
+2. **Via zip upload** — zip individual skill folders and upload via Settings > Features > Custom Skills
+3. **Via CLAUDE.md** — place a `CLAUDE.md` in the folder you share with Cowork that references GAMET principles
+
+Note: Cowork has no terminal, no git, and limited code execution. Skills like `gamet-panel`, `gamet-impact`, and `gamet-discovery` work well (they analyze and advise). Skills like `gamet-orchestrator` and `gamet-init` that dispatch subagents and write files work best in Claude Code CLI.
+
+| Skill              | Claude Code  | Cowork                             |
+| ------------------ | ------------ | ---------------------------------- |
+| gamet-init         | Full support | Limited (no file generation)       |
+| gamet-panel        | Full support | Works (review + advise)            |
+| gamet-impact       | Full support | Works (analysis + advise)          |
+| gamet-discovery    | Full support | Works (analysis)                   |
+| gamet-orchestrator | Full support | Limited (no subagent dispatch)     |
+| gamet-research     | Full support | Limited (no knowledge base writes) |
+| gamet-i18n         | Full support | Works (guidelines)                 |
+| gamet-checkpoint   | Full support | Not applicable                     |
+| gamet-ai-prep      | Full support | Works (analysis)                   |
 
 ### After installing
 
