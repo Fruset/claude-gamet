@@ -58,14 +58,29 @@ The insight: **same system, different experience per role** isn't a nice-to-have
 
 ## Quick Install
 
-### Plugin Marketplace
+### Option 1: Plugin Marketplace (recommended)
+
+Open Claude Code and run these two commands:
 
 ```
-/plugin marketplace add Fruset/claude-gamet
+/plugin marketplace add https://github.com/Fruset/claude-gamet.git
+```
+
+Wait for "Successfully added marketplace: claude-gamet", then:
+
+```
 /plugin install gamet@claude-gamet
 ```
 
-### Manual
+That's it. All 9 skills and 10 agents are now available. Run `/gamet-init` to set up your project.
+
+To update later when new versions are released:
+
+```
+/plugin install gamet@claude-gamet
+```
+
+### Option 2: Copy into your project (works everywhere including Cowork)
 
 ```bash
 git clone https://github.com/Fruset/claude-gamet.git
@@ -73,13 +88,16 @@ cp -r claude-gamet/skills/* your-project/.claude/skills/
 cp -r claude-gamet/agents/* your-project/.claude/agents/
 ```
 
-### Personal (all your projects)
+### Option 3: Personal skills (available in all your projects)
 
 ```bash
+git clone https://github.com/Fruset/claude-gamet.git
 cp -r claude-gamet/skills/* ~/.claude/skills/
 ```
 
-Then run `/gamet-init` in Claude Code. It detects your project, asks questions, and generates everything.
+### After installing
+
+Run `/gamet-init` in Claude Code. It detects your project, asks questions about your business and users, and generates everything — personas, memory files, rules, and knowledge base.
 
 ---
 
